@@ -1,6 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import styled from 'styled-components';
+import { Button } from '@mui/material';
+
+const StyledButton = styled(Button)`
+  width: 400px;
+  && {
+    ${({ theme }) => {
+      return `
+      color: ${theme.colors.white}`;
+    }}
+  }
+`;
 
 function App() {
   return (
@@ -10,6 +22,7 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -18,6 +31,8 @@ function App() {
         >
           Learn React
         </a>
+
+        <StyledButton variant="contained">Learn React</StyledButton>
       </header>
     </div>
   );
