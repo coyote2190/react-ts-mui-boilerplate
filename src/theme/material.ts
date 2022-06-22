@@ -16,7 +16,7 @@ const materialTheme = (ssrMatchMedia: (query: string) => { matches: boolean }): 
         variants: [],
         styleOverrides: {
           root: {
-            fontSize: 45,
+            fontSize: 25,
           },
         },
       },
