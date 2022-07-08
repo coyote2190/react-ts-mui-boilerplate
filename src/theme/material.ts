@@ -1,4 +1,5 @@
 import { createTheme, Theme } from '@mui/material/styles';
+
 import colors from './colors';
 
 const materialTheme = (ssrMatchMedia: (query: string) => { matches: boolean }): Theme => {
