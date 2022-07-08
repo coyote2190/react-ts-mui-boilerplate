@@ -1,0 +1,12 @@
+{
+  "files": [
+    "./src"
+  ],
+  "formats": [
+    {
+      "name": "stylish",
+      "output": "console"
+    }
+  ],
+  "eslintConfig": {}
+}
